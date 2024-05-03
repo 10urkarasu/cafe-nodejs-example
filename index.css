@@ -68,10 +68,9 @@ footer center {
     padding: 1rem;
 }
 main .banner {
+    padding: 2rem;
     margin: 1rem 0rem 10rem 0rem;
-    padding: 4rem;
-    height: 400px;
-    background: #d48272;
+    background: #d482726b;
     position: relative;
     animation-name: banner;
     animation-duration: 2s;
@@ -84,7 +83,15 @@ main .banner figure {
     position: relative;
     animation-name: coffe;
     animation-duration: 3s;
-    right: 10vw;
+    right: 15vw;
+}
+main .banner figure div {
+    flex: 1;
+    text-align: center;
+}
+main .banner figure img {
+    max-width: 100%;
+    height: auto;
 }
 
 main .banner figure h1 {
@@ -108,19 +115,12 @@ main .banner figure h1 {
         top: 0px;
     }
     100% {
-        right: 10vw;
+        right: 15vw;
         top: 0px;
     }
 }
 
 @media only screen and (max-width: 1024px) {
-    main .banner figure img {
-        width: 400px;
-        object-fit: contain;
-    }
-    main .banner figure h1 {
-        font-size: large;
-    }
 }
 
 @media only screen and (max-width: 620px) {
@@ -134,16 +134,6 @@ main .banner figure h1 {
     footer .footer-info {
         display: grid;
         grid-template-columns: auto;
-    }
-
-    main .banner {
-        height: 300px;
-    }
-    main .banner figure img {
-        width: auto;
-    }
-    main .banner figure h1 {
-        font-size: x-large;
     }
     main .banner figure {
         right: 0vw;
