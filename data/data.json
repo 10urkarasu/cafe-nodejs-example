@@ -1,0 +1,68 @@
+{
+    "kahveler": [
+        {
+            "ad": "Americano",
+            "fiyat": 10,
+            "aciklama": "Espresso ve sıcak suyun harika karışımı"
+        },
+        {
+            "ad": "Macchiato",
+            "fiyat": 12,
+            "aciklama": "Espresso üzerine bir damla süt köpüğü"
+        },
+        {
+            "ad": "Mocha",
+            "fiyat": 14,
+            "aciklama": "Espresso, sıcak süt ve çikolata"
+        },
+        {
+            "ad": "Flat White",
+            "fiyat": 12,
+            "aciklama": "Espresso ve sütün pürüzsüz birleşimi"
+        }
+    ],
+    "çaylar": [
+        {
+            "ad": "Chai Latte",
+            "fiyat": 10,
+            "aciklama": "Baharatlarla zenginleştirilmiş ılık çay ve süt karışımı"
+        },
+        {
+            "ad": "Matcha Latte",
+            "fiyat": 12,
+            "aciklama": "Yüksek kaliteli matcha tozu ve süt"
+        },
+        {
+            "ad": "Pu-erh",
+            "fiyat": 8,
+            "aciklama": "Fermente edilmiş siyah çay"
+        },
+        {
+            "ad": "Rooibos",
+            "fiyat": 9,
+            "aciklama": "Güney Afrika'dan gelen kırmızı çay"
+        }
+    ],
+    "tatlılar": [
+        {
+            "ad": "Profiterol",
+            "fiyat": 16,
+            "aciklama": "Çikolata soslu nefis profiteroller"
+        },
+        {
+            "ad": "Tart",
+            "fiyat": 14,
+            "aciklama": "Meyveli veya çikolatalı tatlı tartlar"
+        },
+        {
+            "ad": "Magnolia Pudding",
+            "fiyat": 12,
+            "aciklama": "Vanilyalı magnolia soslu puding"
+        },
+        {
+            "ad": "Kek",
+            "fiyat": 10,
+            "aciklama": "Farklı çeşitlerde nefis kekler"
+        }
+    ]
+}
